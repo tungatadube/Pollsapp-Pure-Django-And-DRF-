@@ -77,7 +77,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'polls',
         'USER': 'root',
-        'PASSWORD': '#pass1235'
+        'PASSWORD': '#pass1235',
+        'HOST': 'db',
+        'PORT': '3306',
+        'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
 
